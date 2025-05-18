@@ -11,7 +11,7 @@ public class DatabaseConnectionTest {
             Connection connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/novatech",
                     "Emmanuel Arhu",
-                    "Examplegh1!"
+                    "Password"
             );
             System.out.println("Connection successful!");
             connection.close();

@@ -22,7 +22,7 @@ public class DatabaseConfig {
                 // If config file not found, use default values for development
                 properties.setProperty("jdbc.url", "jdbc:mysql://127.0.0.1:3306/novatech");
                 properties.setProperty("jdbc.username", "Emmanuel Arhu");
-                properties.setProperty("jdbc.password", "Examplegh1!");
+                properties.setProperty("jdbc.password", "Password");
                 properties.setProperty("jdbc.driver", "com.mysql.cj.jdbc.Driver");
             } else {
                 properties.load(input);
